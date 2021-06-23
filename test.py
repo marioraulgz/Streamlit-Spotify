@@ -92,8 +92,10 @@ def song_data_fetch(song_id, explicit):
 
 
 try:
-    st.title("Spotify Streamlit")
-    add_selectbox = st.sidebar.write("Equipo 2 BEDU")
+    st.title("La Fórmula de un Hit Musical")
+
+    st.sidebar.header("Equipo 2")
+    st.sidebar.write("BEDU")
     time.sleep(2.00)
     st.write(
         """
