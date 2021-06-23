@@ -10,7 +10,7 @@ import time
 # Paraemtros Spotipy
 CID = "1c5eb54d90c1432e9cfdd15797a78f94"
 SECRET = "e55cf83e20304dc6bdc43760c2e2791c"
-MODEL_FILENAME = ""
+MODEL_FILENAME = "./tree.sav"
 n_results = 6
 
 ## Parametros modelo
