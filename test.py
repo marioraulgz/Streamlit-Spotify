@@ -19,9 +19,9 @@ session_state = SessionState.get(
     valid_search=False,
 )
 
-# Paraemtros Spotipy
-CID = "1c5eb54d90c1432e9cfdd15797a78f94"
-SECRET = "e55cf83e20304dc6bdc43760c2e2791c"
+# Parametros Spotipy
+CID = "cid"
+SECRET = "secret"
 MODEL_FILENAME = "./tree.sav"
 n_results = 6
 number_results = 0
@@ -172,12 +172,7 @@ try:
             submit_button_reiniciar = st.button("Limpiar")
             if submit_button_reiniciar:
                 session_state.valid_search = False
-    # Agarrar ID De esa opcion
 
-    # Mostrar abajo que se esta calculando
-    # Llamar a modelo y calcular
-    # EN grande resultado arriba, seguido de graficas comparando resultado con los valores deseados
-    # Boton de borrar
 
 except URLError as e:
     st.error(
